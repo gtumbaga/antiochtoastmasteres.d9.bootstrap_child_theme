@@ -1,0 +1,60 @@
+@media handheld, only screen and (max-width: 767px) {
+  #navbar-collapse .region-navigation {
+    margin-top: 100px;
+  }
+  #navbar {
+    border: none;
+    min-height: 108px;
+    position: absolute;
+  }
+  #navbar .branding {
+    float: none;
+    position: absolute;
+    left: calc(50% - (126px/2));
+  }
+  .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: none;
+  }
+  #navbar .navbar-header {
+    float: none;
+    width: 100%;
+  }
+  .navbar-toggle {
+    position: absolute;
+    left: 10px;
+  }
+  #navbar ul.menu li.first {
+    border-top: none;
+  }
+  #navbar ul.menu li {
+    border-top: solid 1px #eee;
+  }
+  #navbar ul.menu a,
+  body.scrolled #navbar ul.menu a
+  {
+    padding: 18px 40px;
+  }
+  #navbar .navbar-header nav {
+    display: block;
+  }
+  body.scrolled .branding .logo img {
+    height: 100px;
+  }
+  .top-spacing,
+  body.scrolled .top-spacing {
+    margin-top: 0px;
+    padding-top: 108px;
+  }
+  body.navbar-is-fixed-top {
+    margin-top: 0;
+  }
+  .title-section {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  .breadcrumb {
+    text-align: center;
+    margin-top: 20px;
+  }
+}

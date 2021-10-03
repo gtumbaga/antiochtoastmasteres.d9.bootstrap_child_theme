@@ -1,0 +1,9 @@
+global-styling:
+  css:
+    component:
+      css/style.css: {}
+      css/responsive.css: {}
+      '//fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i': {external: true}
+
+  js:
+    js/script.js: {}

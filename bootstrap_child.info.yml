@@ -1,0 +1,22 @@
+name: Bootstrap Child
+type: theme
+description: This is a sub theme of Bootstrap, used as main theme for antiochtoastmasters.
+core: 8.x
+core_version_requirement: ^8 || ^9
+# Defines the base theme
+base theme: bootstrap
+# Defines libraries group in which we can add css/js.
+libraries:
+  - bootstrap_child/global-styling
+# Regions
+regions:
+  navigation: 'Navigation'
+  branding: 'Branding'
+  headerleft: 'Header Left'
+  headerright: 'Header Right'
+  alerts: 'Alerts Section'
+  featured: Featured
+  content: Content
+  contentbottom: 'Content Bottom'
+  footerupper: 'Footer Upper'
+  footer: Footer
